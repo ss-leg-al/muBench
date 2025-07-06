@@ -1,5 +1,9 @@
 {
   "s0": {
+        "cpu-requests": "100m",
+        "cpu-limits": "200m",
+        "memory-requests": "128Mi",
+        "memory-limits": "256Mi",
         "external_services": [
       {
         "seq_len": 1,
@@ -38,7 +42,7 @@
           "trials": 10
         },
         "memory_stress": {
-          "run": false,
+          "run": true,
           "memory_size": 20000,
           "memory_io": 1000
         },
